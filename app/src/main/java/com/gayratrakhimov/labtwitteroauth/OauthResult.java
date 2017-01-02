@@ -21,8 +21,6 @@ public class OauthResult {
     @SerializedName("x_auth_expires")
     @Expose
     private String xAuthExpires;
-    protected final static Object NOT_FOUND_VALUE = new Object();
-
 
     public String getOauthToken() {
         return oauthToken;
